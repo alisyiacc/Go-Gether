@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import '../../../core/theme/app_colors.dart';
 import '../domain/go_group.dart';
 import '../domain/popup_event.dart';
@@ -17,6 +18,7 @@ class HomeMockData {
       dateLabel: '12–28 Juni 2026',
       chipColor: AppColors.lime,
       artSeed: 3,
+      image: AssetImage('assets/images/jjk.jpg'),
     ),
     PopupEvent(
       city: 'OSAKA',
