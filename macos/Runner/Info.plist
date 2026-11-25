@@ -28,5 +28,7 @@
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+<key>NSPhotoLibraryUsageDescription</key>
+<string>Dipakai untuk memilih foto KTP contoh dari galeri.</string>	
 </dict>
 </plist>
