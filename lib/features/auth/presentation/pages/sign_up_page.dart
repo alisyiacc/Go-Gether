@@ -30,16 +30,16 @@ class _SignUpPageState extends State<SignUpPage> {
     super.dispose();
   }
 
-  void _onSignUp() {    ProfileStore.setName(_nameController.text);
-    // Mode pratinjau UI: langsung masuk ke beranda tanpa pendaftaran.
+  void _onSignUp() {
+    ProfileStore.setName(_nameController.text);
+    // TODO: sambungkan ke pendaftaran akun sebelum rilis.
     Navigator.of(context).pushReplacementNamed('/home');
   }
 
   @override
   Widget build(BuildContext context) {
     return AuthScaffold(
-      title: 'Bikin paspormu.',
-      stepLabel: '02 / JOIN',
+      footnote: 'Nama panggilanmu bisa diubah kapan saja di Pengaturan akun.',
       children: [
         AuthTextField(
           label: 'Nama panggilan',
@@ -112,7 +112,7 @@ class _AgreementRow extends StatelessWidget {
           const SizedBox(width: 12),
           Expanded(
             child: Text(
-              'Saya setuju mencoba GOGether dalam mode pratinjau.',
+              'Saya setuju dengan Syarat & Ketentuan dan Kebijakan Privasi GOGether.',
               style: GoogleFonts.plusJakartaSans(
                 fontSize: 14,
                 height: 1.35,

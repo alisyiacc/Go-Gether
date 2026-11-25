@@ -4,7 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 import '../../../../core/theme/app_colors.dart';
 import '../../../../shared/widgets/sticker.dart';
 
-/// Kartu hero gelap "Your Fandom Passport" beserta dua stiker.
+/// Kartu hero gelap "Jauh merchnya. Dekat circle-nya." beserta dua stiker.
 class PassportHeroCard extends StatelessWidget {
   const PassportHeroCard({super.key});
 
@@ -30,26 +30,6 @@ class PassportHeroCard extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Row(
-                children: [
-                  const Icon(
-                    Icons.confirmation_number_outlined,
-                    size: 15,
-                    color: AppColors.heroLabel,
-                  ),
-                  const SizedBox(width: 7),
-                  Text(
-                    'YOUR FANDOM PASSPORT',
-                    style: GoogleFonts.plusJakartaSans(
-                      fontSize: 11,
-                      fontWeight: FontWeight.w700,
-                      letterSpacing: 1.6,
-                      color: AppColors.heroLabel,
-                    ),
-                  ),
-                ],
-              ),
-              const SizedBox(height: 18),
               Text(
                 'Jauh merchnya.',
                 style: headline.copyWith(color: AppColors.white),

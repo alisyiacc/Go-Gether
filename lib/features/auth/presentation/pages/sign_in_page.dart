@@ -33,8 +33,8 @@ class _SignInPageState extends State<SignInPage> {
   @override
   Widget build(BuildContext context) {
     return AuthScaffold(
-      title: 'Senang kamu balik.',
-      stepLabel: '01 / ENTER',
+      footnote: 'Dengan masuk, kamu menyetujui Syarat & Ketentuan dan '
+          'Kebijakan Privasi GOGether.',
       children: [
         AuthTextField(
           label: 'Email',

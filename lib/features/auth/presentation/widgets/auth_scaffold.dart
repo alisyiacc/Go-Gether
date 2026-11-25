@@ -2,22 +2,19 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import '../../../../core/theme/app_colors.dart';
-import '../../../../core/theme/app_theme.dart';
 import '../../../../shared/widgets/gogether_logo.dart';
 import 'passport_hero_card.dart';
 
 /// Kerangka bersama halaman Sign in & Sign up:
-/// logo, hero card, judul section, [children] (form), dan catatan pratinjau.
+/// logo, hero card, [children] (form), dan catatan kecil [footnote].
 class AuthScaffold extends StatelessWidget {
   const AuthScaffold({
     super.key,
-    required this.title,
-    required this.stepLabel,
+    required this.footnote,
     required this.children,
   });
 
-  final String title;
-  final String stepLabel;
+  final String footnote;
   final List<Widget> children;
 
   @override
@@ -37,36 +34,12 @@ class AuthScaffold extends StatelessWidget {
                   const GogetherLogo(),
                   const SizedBox(height: 26),
                   const PassportHeroCard(),
-                  const SizedBox(height: 40),
-                  Row(
-                    crossAxisAlignment: CrossAxisAlignment.end,
-                    children: [
-                      Expanded(
-                        child: Text(
-                          title,
-                          style: GoogleFonts.plusJakartaSans(
-                            fontSize: 24,
-                            fontWeight: FontWeight.w800,
-                            letterSpacing: -0.6,
-                            color: AppColors.ink,
-                          ),
-                        ),
-                      ),
-                      Padding(
-                        padding: const EdgeInsets.only(bottom: 4),
-                        child: Text(stepLabel, style: AppTheme.mono()),
-                      ),
-                    ],
-                  ),
-                  const SizedBox(height: 14),
-                  const Divider(height: 1, thickness: 1.2, color: AppColors.divider),
-                  const SizedBox(height: 22),
+                  const SizedBox(height: 44),
                   ...children,
                   const SizedBox(height: 22),
                   Center(
                     child: Text(
-                      'Mode pratinjau UI. Tidak membuat akun sungguhan.\n'
-                      'Email dan kata sandi tidak disimpan atau dikirim.',
+                      footnote,
                       textAlign: TextAlign.center,
                       style: GoogleFonts.plusJakartaSans(
                         fontSize: 11.5,

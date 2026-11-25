@@ -56,8 +56,7 @@ class _AgendaPageState extends State<AgendaPage> {
                   const PageHeader(title: 'Agenda pop-up'),
                   const SizedBox(height: 18),
                   Text(
-                    'Dari luar negeri, buat wishlist kamu. Informasi event di '
-                    'pratinjau merupakan contoh.',
+                    'Tempat jajan, buat wishlist kamu',
                     style: GoogleFonts.plusJakartaSans(
                       fontSize: 14,
                       height: 1.5,

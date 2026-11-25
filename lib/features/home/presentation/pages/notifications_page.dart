@@ -66,7 +66,7 @@ class NotificationsPage extends StatelessWidget {
                   ],
                   const SizedBox(height: 2),
                   Text(
-                    'Contoh notifikasi sistem pada mode pratinjau.',
+                    'Info penting',
                     style: GoogleFonts.plusJakartaSans(
                       fontSize: 12,
                       fontWeight: FontWeight.w500,
