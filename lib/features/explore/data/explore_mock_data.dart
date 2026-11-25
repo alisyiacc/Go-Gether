@@ -13,8 +13,8 @@ class ExploreMockData {
     'Manga',
     'Anime',
     'Kpop',
-    'Lakorn'
-    'Donghua'
+    'Lakorn',
+    'Donghua',
     'Novel',
   ];
 
@@ -22,11 +22,11 @@ class ExploreMockData {
     'Jepang',
     'Korea',
     'Thailand',
-    'Cina'
-    'Taiwan'
-    'Makau'
-    'Filipina'
-    'Singapura'
+    'Cina',
+    'Taiwan',
+    'Makau',
+    'Filipina',
+    'Singapura',
     'Vietnam',
   ];
 
@@ -39,7 +39,6 @@ class ExploreMockData {
       initials: 'SS',
       avatarColor: AppColors.lime,
       name: 'Soul Society GO',
-      series: 'Bleach',
       category: 'Anime',
       country: 'Jepang',
       members: 158,
@@ -52,7 +51,6 @@ class ExploreMockData {
       initials: 'PC',
       avatarColor: AppColors.salmon,
       name: 'Pirate Crew Mart',
-      series: 'One Piece',
       category: 'Manga',
       country: 'Jepang',
       members: 142,
@@ -65,7 +63,6 @@ class ExploreMockData {
       initials: 'HB',
       avatarColor: AppColors.lavenderChip,
       name: 'Heaven Bless GO',
-      series: "Heaven Official's Blessing",
       category: 'Manhua',
       country: 'Cina',
       members: 133,
@@ -77,8 +74,7 @@ class ExploreMockData {
       rank: 0,
       initials: 'WP',
       avatarColor: AppColors.lime,
-      name: 'Winter Palette Club',
-      series: 'Painter of the Night',
+      name: 'Winter Palette Club',  
       category: 'Manhwa',
       country: 'Korea',
       members: 126,
@@ -91,7 +87,6 @@ class ExploreMockData {
       initials: 'JC',
       avatarColor: AppColors.salmon,
       name: 'Jinx Corner',
-      series: 'Jinx',
       category: 'Manhwa',
       country: 'Korea',
       members: 117,
@@ -103,8 +98,7 @@ class ExploreMockData {
       rank: 0,
       initials: 'DD',
       avatarColor: AppColors.lavenderChip,
-      name: 'Diamond Dust Hub',
-      series: 'Diamond Dust',
+      name: 'GO LEZHIN DD',
       category: 'Manhwa',
       country: 'Korea',
       members: 96,
@@ -117,7 +111,6 @@ class ExploreMockData {
       initials: 'SP',
       avatarColor: AppColors.lime,
       name: 'Stage Pass Seoul',
-      series: 'Stray Kids',
       category: 'Kpop',
       country: 'Korea',
       members: 164,

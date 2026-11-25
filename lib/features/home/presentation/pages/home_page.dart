@@ -73,10 +73,10 @@ class HomePage extends StatelessWidget {
                 ),
                 const SizedBox(height: 34),
                 const SectionHeader(
-                  stickerText: 'THE COMMUNITY EDIT',
+                  stickerText: 'COMMUNITY PICKS',
                   stickerColor: AppColors.salmon,
                   stickerAngle: -2,
-                  title: 'Top GO minggu ini',
+                  title: 'Top GO This WeekS',
                   trailing: Icon(
                     Icons.auto_awesome_outlined,
                     size: 24,

@@ -66,7 +66,7 @@ class TopGoCard extends StatelessWidget {
                         ),
                         const SizedBox(height: 2),
                         Text(
-                          '${group.series} · ${group.country}',
+                          '${group.category} · ${group.country}',
                           maxLines: 1,
                           overflow: TextOverflow.ellipsis,
                           style: GoogleFonts.plusJakartaSans(

@@ -204,7 +204,7 @@ class _ReviewsSheetState extends State<_ReviewsSheet> {
                   ),
                 ),
                 Text(
-                  '${group.series} · ${group.country}',
+                  '${group.category} · ${group.country}',
                   style: GoogleFonts.plusJakartaSans(
                     fontSize: 12.5,
                     color: AppColors.muted,
@@ -390,7 +390,7 @@ class _PendingRow extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  group.series,
+                  group.category,
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,
                   style: GoogleFonts.plusJakartaSans(

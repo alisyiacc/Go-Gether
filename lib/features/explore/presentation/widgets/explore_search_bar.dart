@@ -39,7 +39,7 @@ class ExploreSearchBar extends StatelessWidget {
               color: AppColors.ink,
             ),
             decoration: InputDecoration(
-              hintText: 'Judul, fandom, atau nama GO',
+              hintText: 'Cari nama GO atau kategori',
               hintStyle: GoogleFonts.plusJakartaSans(
                 fontSize: 14,
                 fontWeight: FontWeight.w500,

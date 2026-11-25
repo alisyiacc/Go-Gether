@@ -7,7 +7,6 @@ class GoGroup {
     required this.initials,
     required this.avatarColor,
     required this.name,
-    required this.series,
     required this.category,
     required this.country,
     required this.members,
@@ -21,7 +20,6 @@ class GoGroup {
   final String initials;
   final Color avatarColor;
   final String name;
-  final String series;
   final String category;
   final String country;
   final int members;
@@ -33,7 +31,7 @@ class GoGroup {
   final ImageProvider? image;
 
   String get description =>
-      'Grup untuk berbagi info dan mengikuti GO $series. Diskusikan detail '
+      'Grup untuk berbagi info dan mengikuti GO $category dari $country. Diskusikan detail '
       'barang, biaya, dan pembayaran langsung dengan admin. Kamu bebas '
       'memutuskan sebelum bergabung.';
 }

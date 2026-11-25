@@ -39,7 +39,7 @@ class _ExplorePageState extends State<ExplorePage> {
       if (_country != _all && g.country != _country) return false;
       if (query.isNotEmpty &&
           !g.name.toLowerCase().contains(query) &&
-          !g.series.toLowerCase().contains(query)) {
+          !g.category.toLowerCase().contains(query)) {
         return false;
       }
       return true;
