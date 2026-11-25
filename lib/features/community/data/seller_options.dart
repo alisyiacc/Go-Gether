@@ -9,7 +9,7 @@ class SellerOptions {
     'Manga',
     'Anime',
     'Lakorn',
-    'Donghua'
+    'Donghua',
     'Novel',
   ];
 
@@ -17,11 +17,11 @@ class SellerOptions {
     'Jepang',
     'Korea',
     'Thailand',
-    'Cina'
-    'Taiwan'
-    'Makau'
-    'Filipina'
-    'Singapura'
+    'Cina',
+    'Taiwan',
+    'Makau',
+    'Filipina',
+    'Singapura',
     'Vietnam',
   ];
 
